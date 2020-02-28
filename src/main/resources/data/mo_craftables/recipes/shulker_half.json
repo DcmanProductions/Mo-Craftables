@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "WEW",
+        "WWW"
+    ],
+    "key": {
+        "W": {
+            "item": "mo_craftables:plastic_item"
+        },
+        "E": {
+            "item": "ender_eye"
+        }
+    },
+    "result": {
+        "item": "shulker_shell"
+    },
+    "count": 1
+}

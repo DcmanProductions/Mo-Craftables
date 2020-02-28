@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "mo_craftables:ender_shard_item"
+    },
+    "result": {
+        "item": "mo_craftables:ender_ingot"
+    },
+    "experience": 0.7,
+    "cookingtime": 100
+}

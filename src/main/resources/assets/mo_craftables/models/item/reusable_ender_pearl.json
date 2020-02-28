@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "mo_craftables:item/reusable_ender_pearl"
+    }
+}

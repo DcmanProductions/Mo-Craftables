@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "mo_craftables:block/silicon_ore_overworld"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "mo_craftables:silicon_ore_overworld"
+    },
+    "result": {
+        "item": "mo_craftables:silicon_item"
+    },
+    "experience": 0.5,
+    "cookingtime": 200
+}

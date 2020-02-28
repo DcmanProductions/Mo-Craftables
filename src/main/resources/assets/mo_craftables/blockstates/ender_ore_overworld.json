@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "mo_craftables:block/ender_ore_overworld"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "PSP",
+        "SLS",
+        "PSP"
+    ],
+    "key": {
+        "S": {
+            "item": "mo_craftables:ender_shard_item"
+        },
+        "P": {
+            "item": "mo_craftables:phantom_paste_item"
+        },
+        "L":{
+            "item": "mo_craftables:plastic_resine_item"
+        }
+    },
+    "result": {
+        "item": "ender_pearl"
+    },
+    "count": 1
+}

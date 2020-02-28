@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "E E",
+        "EEE",
+        "EEE"
+    ],
+    "key": {
+        "E": {
+            "item": "mo_craftables:ender_ingot"
+        }
+    },
+    "result": {
+        "item": "mo_craftables:ender_chest"
+    },
+    "count": 1
+}
