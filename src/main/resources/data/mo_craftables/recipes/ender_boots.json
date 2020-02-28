@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "E E",
+        "E E"
+    ],
+    "key": {
+        "E": {
+            "item": "mo_craftables:ender_ingot"
+        }
+    },
+    "result": {
+        "item": "mo_craftables:ender_boots"
+    },
+    "count": 1
+}

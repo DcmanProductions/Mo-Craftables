@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "mo_craftables:block/silicon_ore_overworld"
+        }
+    }
+}

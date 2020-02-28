@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SS",
+        "SS"
+    ],
+    "key": {
+        "S": {
+            "item": "mo_craftables:glass_shard_item"
+        }
+    },
+    "result": {
+        "item": "minecraft:glass"
+    },
+    "count": 1
+}

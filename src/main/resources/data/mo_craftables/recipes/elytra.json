@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "WW"
+    ],
+    "key": {
+        "W": {
+            "item": "mo_craftables:elytra_wing_item"
+        }
+    },
+    "result": {
+        "item": "elytra"
+    },
+    "count": 1
+}

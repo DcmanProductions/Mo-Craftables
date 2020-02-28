@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SG",
+        "GS"
+    ],
+    "key": {
+        "S": {
+            "item": "mo_craftables:silicon_item"
+        },
+        "G": {
+            "item": "mo_craftables:glass_shard_item"
+        }
+    },
+    "result": {
+        "item": "mo_craftables:plastic_resine_item"
+    },
+    "count": 1
+}

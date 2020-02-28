@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "PPP",
+        "PPP",
+        "PPP"
+    ],
+    "key": {
+        "P": {
+            "item": "minecraft:ender_pearl"
+        }
+    },
+    "result": {
+        "item": "mo_craftables:packed_ender_pearl"
+    },
+    "count": 1
+}

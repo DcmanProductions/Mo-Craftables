@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "PLP",
+        "PLP",
+        "PLP"
+    ],
+    "key": {
+        "L": {
+            "item": "leather"
+        },
+        "P": {
+            "item": "mo_craftables:phantom_paste_item"
+        }
+    },
+    "result": {
+        "item": "mo_craftables:elytra_wing_item"
+    },
+    "count": 1
+}
