@@ -48,7 +48,6 @@ public class SideProxy {
 		public static void registerLoot(LootTableLoadEvent event) {
 		}
 
-
 		@SubscribeEvent
 		public static void registerItems(final RegistryEvent.Register<Item> event) {
 			for (ItemList value : ItemList.values())
@@ -61,11 +60,9 @@ public class SideProxy {
 
 		@SubscribeEvent
 		public static void registerBlocks(final RegistryEvent.Register<Block> event) {
-
 			for (BlockList value : BlockList.values())
-				for (Block block : value.getBlock())
+				for (BlockBase block : value.getBlock())
 					event.getRegistry().register(block);
-
 		}
 
 	}

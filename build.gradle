@@ -13,9 +13,9 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '0.1.0'
+version = '0.2.0'
 group = 'net.chaselabs.Mo_Craftables' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'Mo Craftables-1.14.4'
+archivesBaseName = 'Mo Craftables-1.15.2'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 

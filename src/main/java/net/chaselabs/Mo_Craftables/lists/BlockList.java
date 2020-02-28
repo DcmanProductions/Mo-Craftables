@@ -17,7 +17,7 @@ public enum BlockList {
 
 	silicon_ore(new OreBlockBase("silicon_ore", "Silicon Ore", Properties.create(Material.ROCK).harvestLevel(2).harvestTool(ToolType.PICKAXE).hardnessAndResistance(3.f), OreGenDimension.BOTH, 8, 6, 0, 50).getBlocks()),
 
-	marble(new OreBlockBase("marble", "Marble", Properties.create(Material.ROCK).harvestLevel(1).harvestTool(ToolType.PICKAXE).hardnessAndResistance(3.f), OreGenDimension.BOTH, 10, 10, 0, 100).getBlocks()),
+	marble(new OreBlockBase("marble", "Marble", Properties.create(Material.ROCK).harvestLevel(1).harvestTool(ToolType.PICKAXE).hardnessAndResistance(3.f), OreGenDimension.Overworld, 16, 20, 0, 100).getBlocks()),
 	marble_bricks(new BlockBase("marble_bricks", "Marble Bricks", Properties.create(Material.ROCK).harvestLevel(1).harvestTool(ToolType.PICKAXE).hardnessAndResistance(5.f)))
 
 	;
