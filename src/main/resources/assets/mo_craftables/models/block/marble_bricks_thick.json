@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "mo_craftables:block/marble_bricks"
+        "all": "mo_craftables:block/marble_bricks_thick"
     }
 }

@@ -9,7 +9,7 @@ import net.minecraft.world.World;
 public class EnderBlock extends BlockBase {
 
 	public EnderBlock(String name, String displayName, Properties prop) {
-		super(name, displayName, prop);
+		super(name, prop, displayName);
 	}
 
 	@Override

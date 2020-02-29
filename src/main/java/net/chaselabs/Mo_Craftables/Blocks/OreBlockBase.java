@@ -38,8 +38,8 @@ public class OreBlockBase {
 	 * @param min_height
 	 * @param max_height
 	 */
-	public OreBlockBase(String name, String displayName, Properties properties, OreGenDimension dimension, int chance, int blocks_in_vein, int min_height, int max_height) {
-		blocks = dimension == OreGenDimension.BOTH ? Arrays.asList(new BlockBase(name + "_overworld", displayName + " Overworld", properties), new BlockBase(name + "_nether", displayName + " Nether", properties)) : dimension == OreGenDimension.Overworld ? Arrays.asList(new BlockBase(name, displayName, properties)) : dimension == OreGenDimension.Nether ? Arrays.asList(new BlockBase(name, displayName, properties)) : null;
+	public OreBlockBase(String name, Properties properties, OreGenDimension dimension, int chance, int blocks_in_vein, int min_height, int max_height, String displayName, String... flavor) {
+		blocks = dimension == OreGenDimension.BOTH ? Arrays.asList(new BlockBase(name + "_overworld", properties, displayName + " Overworld", flavor), new BlockBase(name + "_nether", properties, displayName + " Nether", flavor)) : dimension == OreGenDimension.Overworld ? Arrays.asList(new BlockBase(name, properties, displayName, flavor)) : dimension == OreGenDimension.Nether ? Arrays.asList(new BlockBase(name, properties, displayName, flavor)) : null;
 
 		OreGeneration(blocks, dimension, chance, blocks_in_vein, min_height, max_height);
 	}

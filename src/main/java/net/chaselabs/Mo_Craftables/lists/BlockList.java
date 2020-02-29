@@ -13,12 +13,13 @@ import net.minecraftforge.common.ToolType;
 
 public enum BlockList {
 
-	ender_ore(new OreBlockBase("ender_ore", "Ender Ore", Properties.create(Material.ROCK).harvestLevel(2).harvestTool(ToolType.PICKAXE).hardnessAndResistance(3.f), OreGenDimension.BOTH, 3, 10, 0, 30).getBlocks()),
+	ender_ore(new OreBlockBase("ender_ore", Properties.create(Material.ROCK).harvestLevel(2).harvestTool(ToolType.PICKAXE).hardnessAndResistance(3.f), OreGenDimension.BOTH, 3, 10, 0, 30, "Ender Ore").getBlocks()),
 
-	silicon_ore(new OreBlockBase("silicon_ore", "Silicon Ore", Properties.create(Material.ROCK).harvestLevel(2).harvestTool(ToolType.PICKAXE).hardnessAndResistance(3.f), OreGenDimension.BOTH, 8, 6, 0, 50).getBlocks()),
+	silicon_ore(new OreBlockBase("silicon_ore", Properties.create(Material.ROCK).harvestLevel(2).harvestTool(ToolType.PICKAXE).hardnessAndResistance(3.f), OreGenDimension.BOTH, 8, 6, 0, 50, "Silicon Ore").getBlocks()),
 
-	marble(new OreBlockBase("marble", "Marble", Properties.create(Material.ROCK).harvestLevel(1).harvestTool(ToolType.PICKAXE).hardnessAndResistance(3.f), OreGenDimension.Overworld, 16, 20, 0, 100).getBlocks()),
-	marble_bricks(new BlockBase("marble_bricks", "Marble Bricks", Properties.create(Material.ROCK).harvestLevel(1).harvestTool(ToolType.PICKAXE).hardnessAndResistance(5.f)))
+	marble(new OreBlockBase("marble", Properties.create(Material.ROCK).harvestLevel(1).harvestTool(ToolType.PICKAXE).hardnessAndResistance(3.f), OreGenDimension.Overworld, 16, 20, 0, 100, "Marble").getBlocks()),
+	marble_bricks_thin(new BlockBase("marble_bricks_thin", Properties.create(Material.ROCK).harvestLevel(1).harvestTool(ToolType.PICKAXE).hardnessAndResistance(5.f), "Marble Bricks", "Thin")),
+	marble_bricks_thick(new BlockBase("marble_bricks_thick", Properties.create(Material.ROCK).harvestLevel(1).harvestTool(ToolType.PICKAXE).hardnessAndResistance(5.f), "Marble Bricks", "Thick"))
 
 	;
 
