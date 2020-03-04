@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "mo_craftables:marble"
+    },
+    "result": "mo_craftables:marble_bricks_thin",
+    "count": 1
+}
