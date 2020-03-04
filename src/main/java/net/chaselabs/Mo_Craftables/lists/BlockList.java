@@ -19,7 +19,11 @@ public enum BlockList {
 
 	marble(new OreBlockBase("marble", Properties.create(Material.ROCK).harvestLevel(1).harvestTool(ToolType.PICKAXE).hardnessAndResistance(3.f), OreGenDimension.Overworld, 16, 20, 0, 100, "Marble").getBlocks()),
 	marble_bricks_thin(new BlockBase("marble_bricks_thin", Properties.create(Material.ROCK).harvestLevel(1).harvestTool(ToolType.PICKAXE).hardnessAndResistance(5.f), "Marble Bricks", "Thin")),
-	marble_bricks_thick(new BlockBase("marble_bricks_thick", Properties.create(Material.ROCK).harvestLevel(1).harvestTool(ToolType.PICKAXE).hardnessAndResistance(5.f), "Marble Bricks", "Thick"))
+	marble_bricks_thick(new BlockBase("marble_bricks_thick", Properties.create(Material.ROCK).harvestLevel(1).harvestTool(ToolType.PICKAXE).hardnessAndResistance(5.f), "Marble Bricks", "Thick")),
+
+	basalt(new OreBlockBase("basalt", Properties.create(Material.ROCK).harvestLevel(1).harvestTool(ToolType.PICKAXE).hardnessAndResistance(3.f), OreGenDimension.Nether, 16, 20, 0, 100, "Basalt").getBlocks()),
+	basalt_bricks_thin(new BlockBase("basalt_bricks_thin", Properties.create(Material.ROCK).harvestLevel(1).harvestTool(ToolType.PICKAXE).hardnessAndResistance(5.f), "Basalt Bricks", "Thin")),
+	basalt_bricks_thick(new BlockBase("basalt_bricks_thick", Properties.create(Material.ROCK).harvestLevel(1).harvestTool(ToolType.PICKAXE).hardnessAndResistance(5.f), "Basalt Bricks", "Thick"))
 
 	;
 
