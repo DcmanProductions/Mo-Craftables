@@ -6,6 +6,7 @@ import java.util.List;
 import net.chaselabs.Mo_Craftables.Blocks.BlockBase;
 import net.chaselabs.Mo_Craftables.Blocks.OreBlockBase;
 import net.chaselabs.Mo_Craftables.Blocks.OreBlockBase.OreGenDimension;
+import net.minecraft.block.SlabBlock;
 import net.minecraft.block.Block.Properties;
 import net.minecraft.block.material.Material;
 import net.minecraft.util.ResourceLocation;

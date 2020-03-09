@@ -22,7 +22,7 @@ public class BlockBase extends Block {
 		else
 			this.flavor = new String[0];
 	}
-
+	
 	@Override
 	public void addInformation(ItemStack stack, IBlockReader worldIn, List<ITextComponent> tooltip, ITooltipFlag flagIn) {
 		for (String value : getFlavorText()) {
